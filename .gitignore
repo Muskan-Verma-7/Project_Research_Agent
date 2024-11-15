@@ -1,0 +1,5 @@
+# Ignore the .env file with API keys and sensitive information
+.env
+
+# Ignore the virtual environment folder
+venv/
