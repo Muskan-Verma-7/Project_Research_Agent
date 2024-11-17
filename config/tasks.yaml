@@ -1,0 +1,29 @@
+task_breakdown:
+  description: >
+    Break the student's project into detailed, actionable tasks based on the provided topic and description.
+  expected_output: >
+    A structured list of tasks with descriptions, ordered sequentially for execution.
+
+technology_research:
+  description: >
+    Research and list the latest open-source libraries, frameworks, data stacks, and AI infrastructure required for the project tasks.
+  expected_output: >
+    A comprehensive list of technologies categorized by their relevance to the project tasks.
+
+analysis:
+  description: >
+    Analyze the technologies identified by the research agent and select the best options for the tasks provided.
+  expected_output: >
+    A refined list of selected technologies with justifications for their use.
+
+architecture_design:
+  description: >
+    Design the project’s overall architecture and flow using the selected technologies and task breakdown.
+  expected_output: >
+    A high-level architecture diagram or description showing task flows and technology integration.
+
+project_plan_compilation:
+  description: >
+    Compile the outputs of all agents into a cohesive project plan. Include a step-by-step guide for students to follow.
+  expected_output: >
+    A complete project plan in Markdown format, with detailed steps, architecture, and recommended tools.
